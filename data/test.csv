@@ -1,0 +1,7 @@
+iso_code,continent,location,date,total_cases,new_cases
+AFG,Asia,Afghanistan,17/03/22,176918,175
+AFG,Asia,Afghanistan,18/03/22,176983,65
+AFG,Asia,Afghanistan,19/03/22,177039,56
+AFG,Asia,Afghanistan,20/03/22,177093,54
+AFG,Asia,Afghanistan,21/03/22,177191,98
+AFG,Asia,Afghanistan,22/03/22,177255,64
