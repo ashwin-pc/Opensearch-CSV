@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ashwin-pc/test-github-action@v1.1
+        uses: ashwin-pc/test-github-action@v1.2
         with:
           who-to-greet: "Mona the Octocat"
