@@ -1,12 +1,18 @@
-on: [pull_request]
+name: Update Changelog
+
+on:
+  pull_request:
+    types:
+      - opened
 
 jobs:
-  hello_world_job:
+  update-changelog:
     runs-on: ubuntu-latest
-    name: A job to say hello
     steps:
-      - name: Hello world action step
-        id: hello
-        uses: ashwin-pc/test-github-action@v1.2
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Update Changelog
+        uses: ashwin-pc/test-github-action@vmain
         with:
-          who-to-greet: "Mona the Octocat"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          changelog_path: CHANGELOG.md
