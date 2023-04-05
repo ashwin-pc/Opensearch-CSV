@@ -18,10 +18,4 @@ npm start -- --csv <path_to_csv>
 npm start -- --index <index_name> --csv <path_to_csv> --overwrite
 ```
 
-e.g.
-
-```sh
-
-```
-
 For more details on how to use the tool, run `npm run help` or `npm start -- --help`
