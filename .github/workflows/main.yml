@@ -2,8 +2,7 @@ name: Update Changelog
 
 on:
   pull_request:
-    types:
-      - opened
+    types: [synchronize, opened]
 
 jobs:
   update-changelog:
