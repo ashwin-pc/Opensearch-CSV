@@ -14,4 +14,4 @@ jobs:
         uses: ashwin-pc/test-github-action@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          changelog_path: CHANGELOG.md
+          changeset_path: changelogs/fragments
